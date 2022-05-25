@@ -23,9 +23,9 @@ Automatically save to disk screenshots taken with the *Snipping Tool* in Windows
 ## Building from source
 Using Python 3.x:
 
-* Install the build requirements (`py2exe`)
+* Install the build requirements (`pyinstaller`)
   * `pip install -r requirements.txt`
 * Create the executable
-  * `python setup.py py2exe`
+  * `pyinstaller --onefile --noconsole --specpath .\src\ --name 'winsnip' .\src\main.py`
 
 You will now find the `winsnip.exe` in the `dist` folder.
