@@ -21,7 +21,7 @@ class ScreenshotsMover:
 
         imghdr.tests.append(ScreenshotsMover.test_jpeg)
         logging.basicConfig(
-            filename='autosave_screenshots.log',
+            filename='winsnip.log',
             format='%(asctime)s %(message)s',
             encoding='utf-8',
             level=logging.DEBUG
